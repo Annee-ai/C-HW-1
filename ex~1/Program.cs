@@ -2,6 +2,7 @@
 
 using System;
 
+Console.WriteLine("Введите значения трёх чисел");
 int a = Convert.ToInt32(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
 int c = Convert.ToInt32(Console.ReadLine());
@@ -15,4 +16,5 @@ if (max < c)
 {
     max = c;
 }
+Console.WriteLine("max :");
 Console.WriteLine(max);
