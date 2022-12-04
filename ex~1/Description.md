@@ -1,2 +1,2 @@
-# [Диаграмма](C:\Users\QpH\Desktop\C#\ex~1\diagram.drawio.png)  
-# [Программа](C:\Users\QpH\Desktop\C#\ex~1\Program.cs)
+# [Диаграмма]( ex~1\diagram.drawio.png)  
+# [Программа](ex~1\Program.cs)
