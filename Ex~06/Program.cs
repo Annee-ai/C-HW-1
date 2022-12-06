@@ -6,5 +6,5 @@
 //7 -> да
 //1 -> нет
 using static Library06;
-Num = InPut("Enter the day number of the week!");
+int Num = InPut("Enter the day number of the week!");
 Console.WriteLine(Function(Num));

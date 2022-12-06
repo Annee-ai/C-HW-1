@@ -4,19 +4,25 @@ public static class Library06
 public static int InPut (string text)
     {
     Console.WriteLine(text);
-    return Convert.ToUInt32(Console.ReadLine());
+    return Convert.ToInt32(Console.ReadLine());
     }
 
     public static int Function(int a)
     {
-        if (a< 1 || a > 7 )
+    if (a > 0 && a < 8)
+        if (a == 6 || a == 7 )
         {
-          Console.WriteLine("The day doesn't exist");  
+          Console.WriteLine("Weekend!");  
         }
-        else if (1 <= a <= 5 )
+        else
         {
-            
+            Console.WriteLine("WeekDay!");
         }
-        
+    else
+    {
+        Console.WriteLine("The day doesn't exist");
     }
+        return (a);
+    }
+
 }
