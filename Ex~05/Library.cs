@@ -14,7 +14,7 @@ public static class Library
         int result = 0;
         if (b < 3)
         {
-            Console.WriteLine("There is't third digit.");
+            Console.WriteLine("There isn't third digit.");
         }
         else
         {
