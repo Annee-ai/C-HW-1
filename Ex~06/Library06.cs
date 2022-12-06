@@ -10,9 +10,13 @@ public static int InPut (string text)
     public static int Function(int a)
     {
         if (a< 1 || a > 7 )
-        Console.WriteLine("The day doesn't exist")
+        {
+          Console.WriteLine("The day doesn't exist");  
+        }
+        else if (1 <= a <= 5 )
         {
             
         }
+        
     }
 }
