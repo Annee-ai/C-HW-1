@@ -12,9 +12,9 @@ int b2= Convert.ToInt32(Console.ReadLine());
 
 int A = (b1-a1);
 int B = (b2-a2);
-Double A1 = Math.Pow(A,2);
+Double A1 = Math.Pow(A,2); //Возведение в степень
 Console.WriteLine(A1);
-Double B1 = Math.Pow(B,2);
+Double B1 = Math.Pow(B,2);//Возведение в степень
 Console.WriteLine(B1);
-Double i = Math.Sqrt((A1 + B1));
+Double i = Math.Sqrt((A1 + B1));//Корень суммы 
 Console.WriteLine(i);
