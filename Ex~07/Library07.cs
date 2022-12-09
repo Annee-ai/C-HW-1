@@ -15,6 +15,11 @@ public static int InPut (string text)
         return Convert.ToInt32(Console.ReadLine());
     }
 
+    /// <summary>
+    /// Разворот натурального числа
+    /// </summary>
+    /// <param name="a"></param>
+    /// <returns></returns>
     public static int Pal (int a)
     {
         int rev = 0;
