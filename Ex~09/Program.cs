@@ -7,7 +7,7 @@ Console.WriteLine("Enter the number ");
 int N = Convert.ToInt32(Console.ReadLine());
 for (int i = 1; i <= N; i++)
 {
-    Console.WriteLine($"{i} x {3} = {i * 3}");
+    Console.WriteLine($"{i} x {3} = {i * i * i}");
     Console.WriteLine();
 }
 Console.ReadKey();
