@@ -1,7 +1,15 @@
 using static System.Console;
+/// <summary>
+/// Моя первая Библиотека
+/// </summary>
 public static class MyLibrary
 {
-    //Ввод текста
+    
+    /// <summary>
+    /// Enter the text!
+    /// </summary>
+    /// <param name="text"></param>
+    /// <returns></returns>
     public static int Input(string text)
 {
     Console.WriteLine(text);
