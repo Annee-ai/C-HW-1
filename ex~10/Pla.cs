@@ -16,6 +16,12 @@ public static int InPut(string text)
     return Convert.ToInt32(Console.ReadLine());
 }
 
+/// <summary>
+/// Цикл возведения числа в степень (любую).
+/// </summary>
+/// <param name="a"></param>
+/// <param name="b"></param>
+/// <returns></returns>
 public static int Pow( int a, int b)
 {
    int res = a;
