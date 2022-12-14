@@ -2,8 +2,8 @@
 //возводит число A в натуральную степень B.
 //3, 5 -> 243 (3⁵)
 //2, 4 -> 16
-using static MyLibrary02;
+using static Pla;
 int a = InPut("Enter the number ");
 int b = InPut("Enter the degree of the number ");
-int res = Pow(a, b);
-Console.WriteLine(res);
+int c = Pow(a, b);
+Console.WriteLine(c);

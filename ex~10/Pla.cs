@@ -3,7 +3,7 @@ using static System.Console;
 /// <summary>
 /// Моя вторая Библиотека!
 /// </summary>
-public static class MyLibrary02
+public static class Pla
 {
 /// <summary>
 /// Ввод числа, очередная репетиция!
@@ -16,12 +16,13 @@ public static int InPut(string text)
     return Convert.ToInt32(Console.ReadLine());
 }
 
-public static int Pow(int a, int b)
+public static int Pow( int a, int b)
 {
-    for (int i = 0; i <= b; i++)
-    {
-        Res = a * a;
-        return Res;
-    }
+   int res = a;
+   for (int i = 0; i < b; i++)
+   {
+    res *= a;
+   }
+   return res;
 }
 }
