@@ -12,6 +12,11 @@ public static int InPut(string text)
     return Convert.ToInt32(Console.ReadLine());
 }
 
+/// <summary>
+/// Сумма цифр числа (+ отделение их друг от друга)
+/// </summary>
+/// <param name="A"></param>
+/// <returns></returns>
 public static int Drob(int A)
 {
     int rev = 0;
