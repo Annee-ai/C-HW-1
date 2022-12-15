@@ -66,6 +66,6 @@ public static int Sum(int[] value)
     {
         result += value[i] * Pow(15, c - 1 - i);
     }
-    return result;
+    return i;
 }
 }
