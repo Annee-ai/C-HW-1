@@ -3,5 +3,8 @@
 //k1, b2 и k2 задаются пользователем.
 //b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
 using static Library17;
+Console.WriteLine("y = k1 * x + b1");
+Console.WriteLine("y = k2 * x + b2");
+Console.WriteLine("Задайте данные для решения уравнений: ");
  AllInPut();
 
