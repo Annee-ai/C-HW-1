@@ -7,6 +7,10 @@ public static  class Lib18
     return int.Parse(Console.ReadLine());
     }
 
+/// <summary>
+/// Печать двумерного массива
+/// </summary>
+/// <param name="A"></param>
 public static void PrintA (double[,] A)
 {
      for (int i = 0; i < A.GetLength(0); i++)
@@ -19,6 +23,10 @@ public static void PrintA (double[,] A)
     }
 }
 
+/// <summary>
+/// Рандомное заполнение двумерного массива ВЕЩЕСТВЕННЫМИ числами
+/// </summary>
+/// <param name="A"></param>
 public static void Fill(double[,] A)
 {
     for (int i = 0; i < A.GetLength(0); i++)

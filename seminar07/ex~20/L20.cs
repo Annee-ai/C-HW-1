@@ -1,5 +1,5 @@
 using static System.Console;
-public static class Lib19
+public static class L20
 {
 
     public static int InPut( string text )
@@ -17,7 +17,7 @@ public static class Lib19
     {
         for (int j = 0; j < A.GetLength(1); j++)
         {
-            A[i,j] = new Random().Next(-150, 150);
+            A[i,j] = new Random().Next(0, 1500);
         }
     }
     Console.WriteLine();
@@ -34,24 +34,21 @@ public static class Lib19
          Console.WriteLine();
         }
      }
-
-    /// <summary>
-    /// Вызов элемента массива по индексам
-    /// </summary>
-    /// <param name="A"></param>
-    public static void From (int[,] A)
-    {
-        Console.Write($"Введите инденкс i- ");
-        int i = int.Parse(Console.ReadLine());
-        Console.Write($"Введите инденкс j- ");
-        int j = int.Parse(Console.ReadLine());
-        if (i < 0 | A.GetLength(0) < i && j < 0| A.GetLength(1)< j)
+     public static void Arf (int[,] A, int m)
+     {
+        int c = A.GetLength(0);
+        int s = A.GetLength(1);
+        for (int j = 0; j < s; j++)
         {
-            Console.WriteLine($"{A[i,j]} --> такого числа нет");
+            double sum = 0;
+            for (int i = 0; i < c; i++)
+            {
+                sum = sum + A[i,j];
+            }
+            Console.Write($"Среднее арифметическое столбца {j} = {sum / m}.");
+            Console.WriteLine();
+           
         }
-        else
-        {
-            Console.WriteLine(A[i,j]);
-        }
-    }
+        
+     }
 }

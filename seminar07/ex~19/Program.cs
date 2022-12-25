@@ -6,5 +6,6 @@ using static Lib19;
 int m = InPut("Введите кол-во строк - ");
 int n = InPut("Введите кол-во столбцов - ");
 int[,] A = new int[m,n];
-Main(A);
+Fill(A);
+PrintA(A);
 From(A);
