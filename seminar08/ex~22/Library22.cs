@@ -39,6 +39,10 @@ public static class Libary22
         }
     }
 
+    /// <summary>
+    /// нахождение строки с минимальной суммой элеметов.
+    /// </summary>
+    /// <param name="A"></param>
     public static void SumStroki(int[,] A)
     {
         int sum = 0;
