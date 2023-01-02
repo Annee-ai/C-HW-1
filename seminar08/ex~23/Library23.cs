@@ -9,9 +9,9 @@ public static class Library23
     }
 
     /// <summary>
-    /// Заполнение двумерного массива
+    /// Заполнение трехмерного массива
     /// </summary>
-    /// <param name="A">двумерный массив</param>
+    /// <param name="A">трехмерный массив</param>
     public static void FillArray (int[,,] A)
     {
         for (int i = 0; i < A.GetLength(0); i++)
@@ -29,9 +29,9 @@ public static class Library23
     }
 
     /// <summary>
-    /// Печчать двумерного массива
+    /// Печчать трехмерного массива
     /// </summary>
-    /// <param name="A">двумерный массив</param>
+    /// <param name="A">трехмерный массив</param>
     public static void PrintArray(int[,,] A)
     {
         for (int i = 0; i < A.GetLength(0); i++)
