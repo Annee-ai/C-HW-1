@@ -23,6 +23,10 @@ public static class L20
     Console.WriteLine();
 }
     
+     /// <summary>
+     /// Печать двумерного массива
+     /// </summary>
+     /// <param name="A">двумерный массив</param>
      public static void PrintA (int[,] A)
      {
         for (int i = 0; i < A.GetLength(0); i++)
