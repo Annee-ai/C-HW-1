@@ -19,4 +19,5 @@ public static class Lib24
         Replica(N-1);
     }
 
+       
 }
